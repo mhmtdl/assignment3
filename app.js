@@ -51,15 +51,15 @@ function playRound(playerSelection,computerSelection) {
     }
 }
 
-let userScore = parseInt(0);
-let computerScore = parseInt(0);
+// let userScore = parseInt(0);
+// let computerScore = parseInt(0);
 
 for(let i=0;i<5;i++) {
     let playerSelection = prompt('Pick a move');
     const computerSelection =computerPlay()
     console.log(playRound(playerSelection,computerSelection));
-    console.log("your score = " + userScore);
-    console.log("Computer score = " + computerScore)
+    // console.log("your score = " + userScore);
+    // console.log("Computer score = " + computerScore)
 
 }
 
